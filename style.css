@@ -1,0 +1,26 @@
+h1 {
+    display:flex; 
+    flex-direction:column ;
+    align-items: center;
+
+}
+
+
+.Titles {
+    color: red; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#CoverImgs {
+    width: 200px; 
+    height: 200px; 
+
+}
+
+.Entrees {
+    display: flex;
+    flex-direction: row;
+    
+}
