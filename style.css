@@ -1,26 +1,50 @@
-h1 {
-    display:flex; 
-    flex-direction:column ;
-    align-items: center;
-
+body {
+    background-image: url("Background.avif");
+    background-size: cover; /* Cover the entire background */
+    background-position: center;
 }
 
+h1 {
+    text-align: center;
+    color: whitesmoke; 
+}
+
+h2 {
+    color: whitesmoke;
+}
 
 .Titles {
-    color: red; 
     display: flex;
     justify-content: space-between;
-    
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px; 
+    margin-right: 50px;
 }
 
 #CoverImgs {
-    width: 200px; 
-    height: 200px; 
+    width: 200px;
+    height: 200px;
 
 }
 
-.Entrees {
-    display: flex;
-    flex-direction: row;
-    
+.imgCont {
+    position: relative;
+        width: 210px; 
+        overflow: hidden;
+}
+
+.imgCont img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.imgCont:hover img {
+    transform: scale(1.1); 
 }
